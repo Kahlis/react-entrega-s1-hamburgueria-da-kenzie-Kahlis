@@ -58,3 +58,58 @@ export const ContentEmpty = styled.div`
         color: #828282;
     }
 `
+
+export const ContentFilled = styled.div`
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 440px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    hr {
+        margin: 0 auto;
+        width: 100%;
+        color: #E0E0E0;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    p {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: #333333;
+    }
+
+    .price {
+        margin: 0 10px 0 auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        
+        color: #828282;
+    }
+
+    button {
+        height: 60px;
+        width: 100%;
+        background: #db4242;
+        border: 2px solid #E0E0E0;
+        border-radius: 8px;
+        color: #ffffff
+    }
+`
+
+export const StyledDiv = styled.div`
+    margin-bottom: 30px;
+`
